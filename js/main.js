@@ -79,7 +79,7 @@ photoAndActions.innerHTML = `
 `
 
 const card = document.querySelector('.card');
-card.style.backgroundImage = `url(../database/img00.jpeg)`;
+card.style.backgroundImage = `url(./img00.jpeg)`;
 
 const like = document.querySelector('.like');
 const dislike = document.querySelector('.dislike');
