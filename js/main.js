@@ -94,7 +94,7 @@ function likeDislike(state) {
 	const card = document.querySelector('.card');
 	card.id = newCardId;
 	console.log(newData.img);
-	card.style.backgroundImage = `url(../database/${newData.img}.jpeg)`;
+	card.style.backgroundImage = `url(./${newData.img}.jpeg)`;
 
 	// const photoTitle = document.querySelector('h2');
 	// photoTitle.innerHTML = newData.title;
